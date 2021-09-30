@@ -4,7 +4,7 @@
   "description": "test gosdk in javascript",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview --host",
     "test": "jest",
