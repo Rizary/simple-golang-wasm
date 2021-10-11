@@ -1,38 +1,39 @@
 {
-  "compilerOptions": {
-      "baseUrl": ".",
-      "module": "ESNext",
-      "noImplicitAny": false,
-      "removeComments": true,
-      "preserveConstEnums": true,
-      "sourceMap": true,
-      "target": "ESNext",
-      "types": ["vite/client", "node"],
-      "downlevelIteration": true,
-      "lib": [
-          "DOM",
-          "DOM.Iterable",
-          "esnext"
-      ],
-      "allowJs": false,
-      "skipLibCheck": false,
-      "esModuleInterop": false,
-      "allowSyntheticDefaultImports": true,
-      "strict": true,
-      "strictNullChecks": true,
-      "forceConsistentCasingInFileNames": true,
-      "moduleResolution": "node",
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "noEmit": true,
-      "jsx": "react",
-      "noFallthroughCasesInSwitch": true
-  },
-  "include": [
-      "./src",
-      "min.wasm" 
-  ],
-  "exclude": [
-      "node_modules"
-  ]
+    "compilerOptions": {
+        "baseUrl": ".",
+        "module": "ESNext",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "target": "ESNext",
+        "types": ["vite/client", "node", "golang-wasm-exec"],
+        "downlevelIteration": true,
+        "lib": [
+            "dom",
+            "DOM.Iterable",
+            "esnext"
+        ],
+        "allowJs": false,
+        "skipLibCheck": false,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": [
+        "./src",
+        "min.wasm" 
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }
+  
